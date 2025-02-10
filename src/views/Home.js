@@ -27,7 +27,7 @@ function Home() {
     return (
         <div className=' bg-cyan-200 min-h-screen'>
             <h1 className='text-4xl text-center mb-8 font-serif pt-8'>Points Counter</h1>
-            <p>{winner}</p>
+            
             <div className='flex bg-slate-700 mx-90 rounded-xl '>
                 <ScoreCard
                     score={scoreA}
